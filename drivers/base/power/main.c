@@ -1791,7 +1791,7 @@ static int __device_suspend(struct device *dev, pm_message_t state, bool async)
 		if (pm_runtime_status_suspended(dev)) {
 			pm_runtime_disable(dev);
 			if (pm_runtime_status_suspended(dev)) {
-			dev->power.is_suspended = true;
+				dev->power.is_suspended = true;
 				goto Complete;
 			}
 
