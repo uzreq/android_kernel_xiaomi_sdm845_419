@@ -1,0 +1,4 @@
+[submodule "techpack/xiaomi-sdm845"]
+	path = techpack/mi845
+	url = https://github.com/duckyduckG/kernel_techpack_mi845_419.git
+	branch = main-dipper
